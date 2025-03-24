@@ -1,0 +1,13 @@
+{
+    "title": "Interpreting Adversarially Trained Convolutional Neural Networks",
+    "authors": "Tianyuan Zhang, Zhanxing Zhu",
+    "summary": "We attempt to interpret how adversarially trained convolutional neural\nnetworks (AT-CNNs) recognize objects. We design systematic approaches to\ninterpret AT-CNNs in both qualitative and quantitative ways and compare them\nwith normally trained models. Surprisingly, we find that adversarial training\nalleviates the texture bias of standard CNNs when trained on object recognition\ntasks, and helps CNNs learn a more shape-biased representation. We validate our\nhypothesis from two aspects. First, we compare the salience maps of AT-CNNs and\nstandard CNNs on clean images and images under different transformations. The\ncomparison could visually show that the prediction of the two types of CNNs is\nsensitive to dramatically different types of features. Second, to achieve\nquantitative verification, we construct additional test datasets that destroy\neither textures or shapes, such as style-transferred version of clean data,\nsaturated images and patch-shuffled ones, and then evaluate the classification\naccuracy of AT-CNNs and normal CNNs on these datasets. Our findings shed some\nlight on why AT-CNNs are more robust than those normally trained ones and\ncontribute to a better understanding of adversarial training over CNNs from an\ninterpretation perspective.",
+    "published": "2019-05-23T17:40:41Z",
+    "pdf_url": "http://arxiv.org/pdf/1905.09797v1",
+    "dataset name": [],
+    "dataset keywords/attributes": [
+        [
+            "607 images"
+        ]
+    ]
+}

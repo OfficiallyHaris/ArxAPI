@@ -1,0 +1,13 @@
+{
+    "title": "Volumetric and Multi-View CNNs for Object Classification on 3D Data",
+    "authors": "Charles R. Qi, Hao Su, Matthias Niessner, Angela Dai, Mengyuan Yan, Leonidas J. Guibas",
+    "summary": "3D shape models are becoming widely available and easier to capture, making\navailable 3D information crucial for progress in object classification. Current\nstate-of-the-art methods rely on CNNs to address this problem. Recently, we\nwitness two types of CNNs being developed: CNNs based upon volumetric\nrepresentations versus CNNs based upon multi-view representations. Empirical\nresults from these two types of CNNs exhibit a large gap, indicating that\nexisting volumetric CNN architectures and approaches are unable to fully\nexploit the power of 3D representations. In this paper, we aim to improve both\nvolumetric CNNs and multi-view CNNs according to extensive analysis of existing\napproaches. To this end, we introduce two distinct network architectures of\nvolumetric CNNs. In addition, we examine multi-view CNNs, where we introduce\nmulti-resolution filtering in 3D. Overall, we are able to outperform current\nstate-of-the-art methods for both volumetric CNNs and multi-view CNNs. We\nprovide extensive experiments designed to evaluate underlying design choices,\nthus providing a better understanding of the space of methods available for\nobject classification on 3D data.",
+    "published": "2016-04-12T07:10:43Z",
+    "pdf_url": "http://arxiv.org/pdf/1604.03265v2",
+    "dataset name": [
+        [
+            "Real-World Reconstruction Dataset"
+        ]
+    ],
+    "dataset keywords/attributes": []
+}

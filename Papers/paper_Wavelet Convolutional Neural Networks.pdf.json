@@ -1,0 +1,17 @@
+{
+    "title": "Wavelet Convolutional Neural Networks",
+    "authors": "Shin Fujieda, Kohei Takayama, Toshiya Hachisuka",
+    "summary": "Spatial and spectral approaches are two major approaches for image processing\ntasks such as image classification and object recognition. Among many such\nalgorithms, convolutional neural networks (CNNs) have recently achieved\nsignificant performance improvement in many challenging tasks. Since CNNs\nprocess images directly in the spatial domain, they are essentially spatial\napproaches. Given that spatial and spectral approaches are known to have\ndifferent characteristics, it will be interesting to incorporate a spectral\napproach into CNNs. We propose a novel CNN architecture, wavelet CNNs, which\ncombines a multiresolution analysis and CNNs into one model. Our insight is\nthat a CNN can be viewed as a limited form of a multiresolution analysis. Based\non this insight, we supplement missing parts of the multiresolution analysis\nvia wavelet transform and integrate them as additional components in the entire\narchitecture. Wavelet CNNs allow us to utilize spectral information which is\nmostly lost in conventional CNNs but useful in most image processing tasks. We\nevaluate the practical performance of wavelet CNNs on texture classification\nand image annotation. The experiments show that wavelet CNNs can achieve better\naccuracy in both tasks than existing models while having significantly fewer\nparameters than conventional CNNs.",
+    "published": "2018-05-20T07:18:54Z",
+    "pdf_url": "http://arxiv.org/pdf/1805.08620v1",
+    "dataset name": [],
+    "dataset keywords/attributes": [
+        [
+            "108 images",
+            "120 images"
+        ],
+        [
+            "20,000 images"
+        ]
+    ]
+}

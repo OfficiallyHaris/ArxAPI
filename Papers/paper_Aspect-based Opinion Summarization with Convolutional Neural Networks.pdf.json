@@ -1,0 +1,9 @@
+{
+    "title": "Aspect-based Opinion Summarization with Convolutional Neural Networks",
+    "authors": "Haibing Wu, Yiwei Gu, Shangdi Sun, Xiaodong Gu",
+    "summary": "This paper considers Aspect-based Opinion Summarization (AOS) of reviews on\nparticular products. To enable real applications, an AOS system needs to\naddress two core subtasks, aspect extraction and sentiment classification. Most\nexisting approaches to aspect extraction, which use linguistic analysis or\ntopic modeling, are general across different products but not precise enough or\nsuitable for particular products. Instead we take a less general but more\nprecise scheme, directly mapping each review sentence into pre-defined aspects.\nTo tackle aspect mapping and sentiment classification, we propose two\nConvolutional Neural Network (CNN) based methods, cascaded CNN and multitask\nCNN. Cascaded CNN contains two levels of convolutional networks. Multiple CNNs\nat level 1 deal with aspect mapping task, and a single CNN at level 2 deals\nwith sentiment classification. Multitask CNN also contains multiple aspect CNNs\nand a sentiment CNN, but different networks share the same word embeddings.\nExperimental results indicate that both cascaded and multitask CNNs outperform\nSVM-based methods by large margins. Multitask CNN generally performs better\nthan cascaded CNN.",
+    "published": "2015-11-30T01:46:15Z",
+    "pdf_url": "http://arxiv.org/pdf/1511.09128v1",
+    "dataset name": [],
+    "dataset keywords/attributes": []
+}

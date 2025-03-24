@@ -1,0 +1,17 @@
+{
+    "title": "Adversarial Autoencoders in Operator Learning",
+    "authors": "Dustin Enyeart, Guang Lin",
+    "summary": "DeepONets and Koopman autoencoders are two prevalent neural operator\narchitectures. These architectures are autoencoders. An adversarial addition to\nan autoencoder have improved performance of autoencoders in various areas of\nmachine learning. In this paper, the use an adversarial addition for these two\nneural operator architectures is studied.",
+    "published": "2024-12-10T03:54:55Z",
+    "pdf_url": "http://arxiv.org/pdf/2412.07811v1",
+    "dataset name": [
+        [
+            "Not Found"
+        ]
+    ],
+    "dataset keywords/attributes": [
+        [
+            "Not Found"
+        ]
+    ]
+}

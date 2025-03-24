@@ -1,0 +1,13 @@
+{
+    "title": "Automatically Evolving CNN Architectures Based on Blocks",
+    "authors": "Yanan Sun, Bing Xue, Mengjie Zhang, Gary G. Yen",
+    "summary": "The performance of Convolutional Neural Networks (CNNs) highly relies on\ntheir architectures. In order to design a CNN with promising performance,\nextended expertise in both CNNs and the investigated problem is required, which\nis not necessarily held by every user interested in CNNs or the problem domain.\nIn this paper, we propose to automatically evolve CNN architectures by using a\ngenetic algorithm based on ResNet blocks and DenseNet blocks. The proposed\nalgorithm is \\textbf{completely} automatic in designing CNN architectures,\nparticularly, neither pre-processing before it starts nor post-processing on\nthe designed CNN is needed. Furthermore, the proposed algorithm does not\nrequire users with domain knowledge on CNNs, the investigated problem or even\ngenetic algorithms. The proposed algorithm is evaluated on CIFAR10 and CIFAR100\nagainst 18 state-of-the-art peer competitors. Experimental results show that it\noutperforms state-of-the-art CNNs hand-crafted and CNNs designed by automatic\npeer competitors in terms of the classification accuracy, and achieves the\ncompetitive classification accuracy against semi-automatic peer competitors. In\naddition, the proposed algorithm consumes much less time than most peer\ncompetitors in finding the best CNN architectures.",
+    "published": "2018-10-28T20:21:27Z",
+    "pdf_url": "http://arxiv.org/pdf/1810.11875v2",
+    "dataset name": [
+        [
+            "Benchmark Dataset"
+        ]
+    ],
+    "dataset keywords/attributes": []
+}
