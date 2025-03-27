@@ -22,6 +22,7 @@ Current limitations:
 - No support for bulk processing — only extracts from a single paper at a time.
 
 Development phase for version 1.0:
+
 Address current limitations and restructure logic where needed.
 Generalise and clean up regex rules for dataset detection.
 Design a more robust metadata extraction process.
