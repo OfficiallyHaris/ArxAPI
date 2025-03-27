@@ -1,7 +1,7 @@
 # ArxAPI
 This project is a lightweight Python tool that automates the parsing arXiv academic papers to extract key information and metadata using arXiv API and Python PDF extracting libraries (pdfminer.six). Current development is focused on working with arXiv's API. Future versions may expand to other academic sources where PDF extraction is viable.  
 
-Overview: 
+### Overview: 
 
 Decided on Flask to implement a simple, rudimentary (prototyping) RESTful API.
 
@@ -19,12 +19,13 @@ Built early-stage regex rules to extract:
     
 (All of the above was within a week with limited time and focus available)
 
+---
 
-Current limitations: 
+### Current limitations: 
 - Regex implementation is too simple; not yet generalisable or reliable.
 - No support for bulk processing — only extracts from a single paper at a time.
 
-Development phase for version 1.0:
+### Development phase for version 1.0:
 
 Address current limitations and restructure logic where needed.
 
@@ -37,7 +38,9 @@ Extract additional fields:
   - Number of classes.
   - Train/test/validation splits.
 
-Future Versions: 
+---
+
+### Future Versions: 
 Implement more complex extraction features:
   - Table and image parsing.
   - Methodology summarisation.
