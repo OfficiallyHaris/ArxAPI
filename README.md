@@ -4,12 +4,15 @@ This project is a lightweight Python tool that automates the parsing arXiv acade
 Overview: 
 
 Decided on Flask to implement a simple, rudimentary (prototyping) RESTful API.
+
 Explored and integrated the arXiv API, using their official examples.
     – Paper title, authors, published date, and summary were easily retrieved thanks to the API’s built-in methods.   
+
 pdfminer.six evaluated for PDF text extraction:
   - Pros: Strong text extraction capabilities, including support for advanced layout parsing; no licensing concerns (unlike PyMuPDF).
   - Cons: Limited or no support for image extraction; lacks built-in table extraction functionality.
   - Next steps: Likely to require custom implementation or use in conjunction with another library for advanced parsing.
+
 Built early-stage regex rules to extract:
   - Dataset names.
   - Dataset sizes (partial success).
