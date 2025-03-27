@@ -24,8 +24,11 @@ Current limitations:
 Development phase for version 1.0:
 
 Address current limitations and restructure logic where needed.
+
 Generalise and clean up regex rules for dataset detection.
+
 Design a more robust metadata extraction process.
+
 Extract additional fields:
   - Dataset type.
   - Number of classes.
